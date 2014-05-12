@@ -63,7 +63,7 @@ yhmc = yhmc / sum(yhmc) / xStep;
 plot( xhmc, yhmc, 'g');
 
 %% Plot graph
-legend( 'True Distribution','HMC without noise(with M-H)', 'HMC without noise(no M-H)', 'HMC with noise(with M-H)','HMC with noise(no M-H)', 'SGHMC' );
+legend( 'True Distribution','Standard HMC(with MH)', 'Standard HMC(no MH)', 'Naive stochastic gradient HMC(with MH)','Naive stochastic gradient HMC(no MH)', 'SGHMC' );
 
 len = 5;
 set(gcf, 'PaperPosition', [0 0 len len/8.0*6.5] )

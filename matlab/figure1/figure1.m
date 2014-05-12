@@ -1,5 +1,6 @@
 %% 
 %% This file produces the Figure 1 in the paper in figure/func2 and figure/func4
+% we only include figure/func4 due to space reason
 % compare different HMC approaches under stochastic gradient and perfect
 % gradient
 %%
@@ -39,4 +40,7 @@ saveas( gcf, 'figure/func2', 'pdf');
 
 h = hgload( 'figure/func4' );
 axis([-2 2 0 0.8]);
+xland = get(gca, 'xlabel');
+set( xland, 'fontsize', 20 );
+
 saveas( gcf, 'figure/func4', 'pdf');
