@@ -7,4 +7,4 @@ To run the experiment
 * (4) ./mkall.sh will make all the fold's input file
 * (5) cd run; use runSGHMC.sh to run the experiment
 
-Acknowledgement: This code is based on code-base of [SVDFeature](svdfeature.apexlab.org) project.
+Acknowledgement: This code is based on code-base of [SVDFeature](http://svdfeature.apexlab.org) project.
