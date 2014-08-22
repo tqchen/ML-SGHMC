@@ -9,3 +9,4 @@ Informations:
 * arxiv link: http://arxiv.org/abs/1402.4102
 * matlab: contains scripts for simulated experiments
 * bayesnn: contains a numpy implementation of baysian neural network 
+* mf: contains a c++ implementation of bayesian matrix factorization using SGHMC
