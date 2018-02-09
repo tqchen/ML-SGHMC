@@ -21,5 +21,5 @@ How to adapting to other classification experiment:
 
 UPDATE NOTES
 ============
-For people who are interested in using this code. We found that experiments of bayesian NN on SGHMC is not statistically significant in terms ofthe performance of Bayesian-NN vs SGDMOM method (Thanks to Daniel Seita) by change different random seed. We also tried follow up experiments on CIFAR and ImageNet dataset which suggests the sampling averging is harder to catch up due to variance in the sampling. This doesn't take away from the merit of SGHMC itself as the point of sampling algorithm, but does suggest that bayesian averaging is only as good as optimization based method on this setting.
+For people who are interested in using this code. We found that experiments of bayesian NN on SGHMC is not statistically significant in terms ofthe performance of Bayesian-NN vs SGDMOM method (Thanks to Daniel Seita) by change different random seed. We also tried followup experiments on CIFAR and ImageNet dataset, both which suggests the sampling averging is harder to catch up with optimization methods due to larger variance bought by sampling. This doesn't take away from the merit of SGHMC itself as the point of sampling algorithm, but does suggest that bayesian averaging is only as good as optimization based method on this setting.
 
